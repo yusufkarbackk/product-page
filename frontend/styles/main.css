@@ -1,0 +1,10 @@
+.product-pic img {
+  max-width: 500px;
+  border-radius: 30px;
+}
+
+.product-text h2 {
+  float: right;
+  font-size: 50px;
+}
+/*# sourceMappingURL=main.css.map */
