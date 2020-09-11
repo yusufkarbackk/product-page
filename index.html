@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="frontend/styles/main.css">
-</head>
-<body>
-    
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="d-flex align-items-center justify-content-between mt-5">
-            <div class="product-pic">
-                <img src="frontend/images/scottish-fols.jpg" alt="">
-            </div>
-            <div class="product-text mx-auto">
-                <h2>Scottish Fold</h2>
-            </div>
+      <div class="d-flex justify-content-around mt-5">
+        <div class="product-pic">
+          <img src="frontend/images/scottish-fols.jpg" alt="" />
         </div>
+        <div class="card d-flex" style="width: 22rem">
+          <div class="card-body">
+            <div class="product-title card-title text-center">
+              <h2>Scottish Fold</h2>
+            </div>
+            <div class="product-subtext d-flex justify-content-around mt-5">
+              <div class="description flex-column">
+                <p>Umur:</p>
+                <p>Jenis kelamin:</p>
+                <p>Vaksin:</p>
+              </div>
+              <div class="desc-answer flex-column-reverse">
+                <p>4 Bulan</p>
+                <p>Pria</p>
+                <p>YES</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
-
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
-</body>
+  </body>
 </html>

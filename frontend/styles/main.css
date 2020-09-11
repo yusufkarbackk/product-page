@@ -3,8 +3,15 @@
   border-radius: 30px;
 }
 
-.product-text h2 {
+.product-title h2 {
+  font-size: 40px;
+}
+
+.product-subtext .description {
+  float: left;
+}
+
+.product-subtext .desc-answer {
   float: right;
-  font-size: 50px;
 }
 /*# sourceMappingURL=main.css.map */

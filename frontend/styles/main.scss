@@ -1,13 +1,21 @@
-.product-pic{
-    img{
-        max-width: 500px;
-        border-radius: 30px;
-    }
+.product-pic {
+  img {
+    max-width: 500px;
+    border-radius: 30px;
+  }
 }
 
-.product-text{
-    h2{
-        float:right;
-        font-size: 50px;
-    }
+.product-title {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+.product-subtext {
+  .description {
+    float: left;
+  }
+  .desc-answer {
+    float: right;
+  }
 }
